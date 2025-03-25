@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store Login</title>
+    <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+<main class="login-container">
+    <section class="login-box">
+        <header class="logo-section">
+            <div class="logo-wrapper">
+                <svg
+                        width="44"
+                        height="44"
+                        viewBox="0 0 44 44"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="book-icon"
+                >
+                    <path
+                            d="M7.33333 35.75C7.33333 34.5344 7.81622 33.3686 8.67576 32.5091C9.5353 31.6495 10.7011 31.1667 11.9167 31.1667H36.6667M7.33333 35.75C7.33333 36.9656 7.81622 38.1314 8.67576 38.9909C9.5353 39.8504 10.7011 40.3333 11.9167 40.3333H36.6667V3.66666H11.9167C10.7011 3.66666 9.5353 4.14955 8.67576 5.00909C7.81622 5.86863 7.33333 7.03442 7.33333 8.25V35.75Z"
+                            stroke="#009951"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                    ></path>
+                </svg>
+            </div>
+            <h1 class="store-name">BOOK STORE</h1>
+        </header>
+
+        <form>
+            <div class="input-group">
+                <label for="username" class="input-label">用户名</label>
+                <div class="input-wrapper">
+                    <input
+                            type="text"
+                            id="username"
+                            placeholder="请输入用户名"
+                            class="input"
+                    />
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="password" class="input-label">密码</label>
+                <div class="input-wrapper">
+                    <input
+                            type="password"
+                            id="password"
+                            placeholder="请输入密码"
+                            class="input"
+                    />
+                </div>
+            </div>
+
+            <div class="action-links">
+                <a href="#" class="register-link">新用户注册</a>
+                <a href="#" class="forgot-password">忘记密码</a>
+            </div>
+
+            <button type="submit" class="login-button">登 录</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

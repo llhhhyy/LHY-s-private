@@ -1,0 +1,55 @@
+/* 基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* 容器 */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* 主体样式（书籍销量排行页面特有） */
+.main-content {
+    padding: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+table th {
+    background: #2E7D32;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table tr:hover {
+    background: #f1f1f1;
+}
+
+/* 响应式设计 */
+@media (max-width: 640px) {
+    .nav-links {
+        display: none;
+    }
+}

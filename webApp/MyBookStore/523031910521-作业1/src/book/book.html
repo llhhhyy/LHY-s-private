@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>书籍详情</title>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+    />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="book.css" />
+    <link rel="stylesheet" href="../header/header.css">
+</head>
+<body>
+<div id="header-container"></div>
+
+<script>
+    // 动态加载页眉
+    fetch('../header/header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header-container').innerHTML = data;
+        });
+</script>
+<main class="product-detail-page">
+    <div class="product-container">
+        <section class="product-section">
+            <button class="wishlist-button">
+                <i class="ti ti-heart wishlist-icon"></i>
+            </button>
+            <div class="product-image">
+                <img
+                        src="https://images.pexels.com/photos/256450/pexels-photo-256450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                        alt="Book Image"
+                        class="book-image"
+                />
+            </div>
+            <div class="product-info">
+                <div class="product-details">
+                    <div class="product-header">
+                        <h1 class="product-title">Book 1</h1>
+                        <div class="product-price-container">
+                            <span class="category-tag">编程</span>
+                            <div class="price-wrapper">
+                                <div class="price-display">
+                                    <span class="currency-symbol">￥</span>
+                                    <span class="price-amount">50</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="product-details">
+                    <div class="product-description">
+                        <span>基本信息：</span>
+                        <br />
+                        <span>作者：xxx 销量：10</span>
+                    </div>
+                    <button class="buy-button">立即购买</button>
+                    <button class="cart-button">加入购物车</button>
+                </div>
+
+                <div class="product-accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <div>作品介绍</div>
+                            <i class="ti ti-chevron-down"></i>
+                        </div>
+                        <div class="accordion-content">这是一部伟大的书</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="comments-section">
+            <div class="comment-tabs">
+<!--                <div class="tab">书籍评价</div>-->
+                <div class="tab">最新评论</div>
+                <div class="tab">最热评论</div>
+            </div>
+            <div class="comment-input">
+                <input type="text" placeholder="发布一条友善的评论" class="comment-input-field">
+                <button class="post-button">发布</button>
+            </div>
+            <article class="comment">
+                <div class="user-avatar"></div>
+                <div class="comment-content">
+                    <div class="comment-author">person 1</div>
+                    <div class="comment-text">好书</div>
+                    <div class="comment-meta">
+                        <span>2025/2/27</span>
+                        <span><i class="ti ti-thumb-up"></i>3</span>
+                        <span class="reply-button">回复</span>
+                    </div>
+                    <!-- 隐藏的输入框和发布按钮 -->
+                    <div class="reply-input hidden">
+                        <input type="text" placeholder="回复 person 1" class="comment-input-field">
+                        <button class="post-button">发布</button>
+                    </div>
+                </div>
+            </article>
+            <div class="pagination">
+                <div class="pagination-button">
+                    <i class="ti ti-chevron-left"></i>
+                </div>
+                <div class="pagination-button-active">1</div>
+                <div class="pagination-button">
+                    <i class="ti ti-chevron-right"></i>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<script>
+    // Simple accordion functionality
+    document.addEventListener("DOMContentLoaded", function () {
+        const accordionHeader = document.querySelector(".accordion-header");
+        const accordionContent = document.querySelector(".accordion-content");
+        const accordionIcon = accordionHeader.querySelector("i");
+
+        accordionHeader.addEventListener("click", function () {
+            const isOpen = accordionContent.style.display !== "none";
+
+            if (isOpen) {
+                accordionContent.style.display = "none";
+                accordionIcon.classList.remove("ti-chevron-up");
+                accordionIcon.classList.add("ti-chevron-down");
+            } else {
+                accordionContent.style.display = "block";
+                accordionIcon.classList.remove("ti-chevron-down");
+                accordionIcon.classList.add("ti-chevron-up");
+            }
+        });
+        const likeIcons = document.querySelectorAll(".comment-meta .ti-thumb-up");
+
+        likeIcons.forEach((icon) => {
+            icon.addEventListener("click", function () {
+                icon.classList.toggle("liked"); // 切换绿色状态
+            });
+        });
+        const replyButtons = document.querySelectorAll(".reply-button");
+        replyButtons.forEach((button) => {
+            button.addEventListener("click", function () {
+                const replyInput = button.closest(".comment-content").querySelector(".reply-input");
+                replyInput.classList.toggle("hidden"); // 切换显示/隐藏
+            });
+        });
+    });
+</script>
+</body>
+</html>

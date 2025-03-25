@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车 - Book Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="../header/header.css">
+</head>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const quantityControls = document.querySelectorAll(".quantity-control");
+
+        quantityControls.forEach((control) => {
+            const minusBtn = control.querySelector(".minus-btn");
+            const plusBtn = control.querySelector(".plus-btn");
+            const quantitySpan = control.querySelector(".quantity");
+
+            minusBtn.addEventListener("click", function () {
+                let quantity = parseInt(quantitySpan.textContent);
+                if (quantity > 1) {
+                    quantity--;
+                    quantitySpan.textContent = quantity;
+                }
+            });
+
+            plusBtn.addEventListener("click", function () {
+                let quantity = parseInt(quantitySpan.textContent);
+                if (quantity < 100) {
+                    quantity++;
+                    quantitySpan.textContent = quantity;
+                }
+            });
+        });
+    });
+
+</script>
+<body>
+<div class="container">
+    <div id="header-container"></div>
+
+    <script>
+        // 动态加载页眉
+        fetch('../header/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
+
+    <!-- 购物车主体内容 -->
+    <main class="main-content">
+        <table class="cart-table">
+            <thead>
+            <tr>
+                <th></th>
+                <th>图片</th>
+                <th>书名</th>
+                <th>数量</th>
+                <th>售价</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><img src="https://images.pexels.com/photos/256450/pexels-photo-256450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="书籍1"></td>
+                <td>书籍1</td>
+                <td>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus-btn">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-btn plus-btn">+</button>
+                    </div>
+                </td>
+                <td>¥10</td>
+                <td><button class="delete-btn">删除</button></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="书籍2"></td>
+                <td>书籍2</td>
+                <td>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus-btn">-</button>
+                        <span class="quantity">2</span>
+                        <button class="quantity-btn plus-btn">+</button>
+                    </div>
+                </td>
+                <td>¥20</td>
+                <td><button class="delete-btn">删除</button></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><img src="https://plus.unsplash.com/premium_photo-1683141243517-5730698ff67f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="书籍3"></td>
+                <td>书籍3</td>
+                <td>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus-btn">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-btn plus-btn">+</button>
+                    </div>
+                </td>
+                <td>¥15</td>
+                <td><button class="delete-btn">删除</button></td>
+            </tr>
+            </tbody>
+
+        </table>
+        <button class="checkout-btn">立即下单</button>
+    </main>
+</div>
+</body>
+</html>

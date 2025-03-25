@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/Cmake/share/cmake-3.29/Modules/CheckCSourceRuns.cmake
+D:/Cmake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake
+D:/Cmake/share/cmake-3.29/Modules/Internal/CheckSourceRuns.cmake
+D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/cmake/FindSIMD.cmake
+D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/CMakeLists.txt

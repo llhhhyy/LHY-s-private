@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>书籍销量排行 - Book Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="rank.css">
+  <link rel="stylesheet" href="../header/header.css">
+</head>
+<body>
+<div class="container">
+  <div id="header-container"></div>
+
+  <script>
+    // 动态加载页眉
+    fetch('../header/header.html')
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById('header-container').innerHTML = data;
+            });
+  </script>
+
+  <!-- 主体内容 -->
+  <main class="main-content">
+    <h2>书籍销量排行</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>排名</th>
+        <th>书名</th>
+        <th>作者</th>
+        <th>销量</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1</td>
+        <td>《活着》</td>
+        <td>余华</td>
+        <td>1200</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>《三体》</td>
+        <td>刘慈欣</td>
+        <td>1100</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>《解忧杂货店》</td>
+        <td>东野圭吾</td>
+        <td>950</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>《追风筝的人》</td>
+        <td>卡勒德·胡赛尼</td>
+        <td>850</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>《小王子》</td>
+        <td>圣-埃克苏佩里</td>
+        <td>700</td>
+      </tr>
+      </tbody>
+    </table>
+  </main>
+</div>
+</body>
+</html>

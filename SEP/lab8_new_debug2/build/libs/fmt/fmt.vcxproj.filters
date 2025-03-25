@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\src\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\src\os.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\args.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\chrono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\compile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\format-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\os.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\printf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\ranges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\include\fmt\xchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\README.md" />
+    <None Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\fmt\ChangeLog.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DBDE6073-E13D-3212-A7AA-51FE2D0C47CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{826834FF-231C-3FBE-98DC-05188EEA4EE4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

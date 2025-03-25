@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/Cmake/share/cmake-3.29/Modules/CMakeDependentOption.cmake
+D:/Cmake/share/cmake-3.29/Modules/ExternalProject/shared_internal_commands.cmake
+D:/Cmake/share/cmake-3.29/Modules/FetchContent.cmake
+D:/Cmake/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/cli11/CMakeLists.txt
+D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/cli11/cmake/CLI11Warnings.cmake

@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Store</title>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+          rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="../header/header.css">
+</head>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const filterButton = document.getElementById('filterButton');
+    const dropdownContent = document.getElementById('dropdownContent');
+
+    filterButton.addEventListener('click', function (event) {
+      event.stopPropagation();
+      dropdownContent.style.display = dropdownContent.style.display === 'block' ? 'none' : 'block';
+    });
+
+    document.addEventListener('click', function () {
+      dropdownContent.style.display = 'none';
+    });
+  });
+</script>
+
+<body>
+<div class="container">
+  <div id="header-container"></div>
+
+  <script>
+    // 动态加载页眉
+    fetch('../header/header.html')
+            .then(response => response.text())
+            .then(data => {
+              document.getElementById('header-container').innerHTML = data;
+            });
+  </script>
+
+  <section class="hero-section">
+    <div class="hero-content">
+      <h2 class="hero-title">BOOK STORE</h2>
+      <p class="hero-subtitle">电子书城</p>
+    </div>
+  </section>
+
+  <main class="main-content">
+    <div class="search-section">
+      <div class="search-container">
+        <input type="text" placeholder="Search" class="search-input" />
+        <button class="search-button">
+          <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="search-icon"
+          >
+            <path
+                    d="M14 14L11.1 11.1M12.6667 7.33333C12.6667 10.2789 10.2789 12.6667 7.33333 12.6667C4.38781 12.6667 2 10.2789 2 7.33333C2 4.38781 4.38781 2 7.33333 2C10.2789 2 12.6667 4.38781 12.6667 7.33333Z"
+                    stroke="#1E1E1E"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+            ></path>
+          </svg>
+        </button>
+      </div>
+      <button class="filter-button" id="filterButton">
+        <span>标签</span>
+        <svg
+                width="20"
+                height="21"
+                viewBox="0 0 20 21"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="dropdown-icon"
+        >
+          <path
+                  d="M5 8L10 13L15 8"
+                  stroke="#1E1E1E"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+          ></path>
+        </svg>
+        <div class="dropdown-content" id="dropdownContent">
+          <a href="#">编程</a>
+          <div class="divider"></div>
+          <a href="#">文学</a>
+          <div class="divider"></div>
+          <a href="#">娱乐</a>
+        </div>
+      </button>
+
+    </div>
+
+    <section class="book-grid">
+      <article class="book-card" onclick="window.location.href='../book/book.html'">
+        <img
+                src="https://images.pexels.com/photos/256450/pexels-photo-256450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Book"
+                class="book-image"
+        />
+        <div class="book-info">
+          <h3 class="book-title">BOOK 1</h3>
+          <p class="book-price">￥50</p>
+        </div>
+      </article>
+
+      <article class="book-card" onclick="window.location.href='../book/book.html'">
+        <img
+                src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Book"
+                class="book-image"
+        />
+        <div class="book-info">
+          <h3 class="book-title">BOOK 2</h3>
+          <p class="book-price">￥50</p>
+        </div>
+      </article>
+
+      <article class="book-card" onclick="window.location.href='../book/book.html'">
+        <img
+                src="https://plus.unsplash.com/premium_photo-1683141243517-5730698ff67f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Book"
+                class="book-image"
+        />
+        <div class="book-info">
+          <h3 class="book-title">BOOK 3</h3>
+          <p class="book-price">￥50</p>
+        </div>
+      </article>
+
+      <article class="book-card" onclick="window.location.href='../book/book.html'">
+        <img
+                src="https://images.unsplash.com/photo-1571167530149-c1105da4c2c7?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Book"
+                class="book-image"
+        />
+        <div class="book-info">
+          <h3 class="book-title">BOOK 4</h3>
+          <p class="book-price">￥50</p>
+        </div>
+      </article>
+
+      <article class="book-card wide" onclick="window.location.href='../book/book.html'">
+        <img
+                src="https://placehold.co/524x247/e0e0e0/e0e0e0"
+                alt="Book"
+                class="book-image"
+        />
+        <div class="book-info">
+          <h3 class="book-title">BOOK 5</h3>
+          <p class="book-price">￥50</p>
+        </div>
+      </article>
+
+      <article class="book-card wide" onclick="window.location.href='../book/book.html'">
+        <img
+                src="https://placehold.co/524x247/e0e0e0/e0e0e0"
+                alt="Book"
+                class="book-image"
+        />
+        <div class="book-info">
+          <h3 class="book-title">BOOK 6</h3>
+          <p class="book-price">￥50</p>
+        </div>
+      </article>
+    </section>
+
+
+    <nav class="pagination">
+      <button class="prev-button">
+        <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="arrow-icon"
+        >
+          <path
+                  d="M12.6666 8H3.33331M3.33331 8L7.99998 12.6667M3.33331 8L7.99998 3.33334"
+                  stroke="#1E1E1E"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+          ></path>
+        </svg>
+        <span>Previous</span>
+      </button>
+      <div class="page-number">1</div>
+      <button class="next-button">
+        <span>Next</span>
+        <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="arrow-icon"
+        >
+          <path
+                  d="M3.33334 8H12.6667M12.6667 8L8.00001 3.33334M12.6667 8L8.00001 12.6667"
+                  stroke="#1E1E1E"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+          ></path>
+        </svg>
+      </button>
+    </nav>
+  </main>
+</div>
+</body>
+</html>

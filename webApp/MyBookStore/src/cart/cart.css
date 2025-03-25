@@ -1,0 +1,93 @@
+/* 表格样式 */
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-table th, .cart-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.cart-table th {
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+
+.cart-table td {
+    vertical-align: middle;
+}
+
+/* 书籍图片 */
+.cart-table img {
+    width: 50px;
+    height: 70px;
+    object-fit: cover;
+}
+
+/* 删除按钮 */
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+/* 立即下单按钮 */
+.checkout-btn {
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkout-btn:hover {
+    background-color: #218838;
+}
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.quantity-btn {
+    background-color: #28a745;
+    width: 20px; /* 调整宽度 */
+    height: 20px; /* 调整高度 */
+    color: white;
+    border: none;
+    padding: 0; /* 移除内边距 */
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+    display: flex; /* 使用 flex 布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    line-height: 1; /* 确保行高不影响居中 */
+}
+
+.quantity-btn:hover {
+    background-color: #218838;
+}
+
+.quantity {
+    font-size: 16px;
+    min-width: 20px;
+    text-align: center;
+}

@@ -1,0 +1,146 @@
+/* Order List Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: #f5f5f5;
+}
+
+.order-container {
+    padding: 64px;
+    max-width: 1517px;
+    margin: 0 auto;
+    margin-left: 72px;
+    margin-right: 70px;
+    margin-bottom: 115px;
+    background-color: #fff;
+}
+
+.order-header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e1e1e;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.order-card {
+    display: flex;
+    padding: 24px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    position: relative;
+}
+
+.order-image {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.order-content {
+    margin-left: 24px;
+    flex-grow: 1;
+}
+
+.order-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e1e1e;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.order-metadata {
+    font-size: 16px;
+    color: #757575;
+    line-height: 1.4;
+}
+
+.order-pricing {
+    position: absolute;
+    right: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 28px;
+}
+
+.order-amount {
+    font-size: 40px;
+    color: #000;
+    margin: 0;
+}
+
+.order-repurchase {
+    padding: 12px 24px;
+    color: #f5f5f5;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #28a745;
+    background-color: #28a745;
+    font-family: "Inter", sans-serif;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .order-container {
+        padding: 32px;
+    }
+
+    .order-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .order-content {
+        margin: 16px 0;
+    }
+
+    .order-pricing {
+        position: static;
+        align-items: center;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 640px) {
+    .order-container {
+        padding: 16px;
+    }
+
+    .order-header {
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    .order-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .order-title {
+        font-size: 20px;
+    }
+
+    .order-metadata {
+        font-size: 14px;
+    }
+
+    .order-amount {
+        font-size: 32px;
+    }
+
+    .order-repurchase {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}

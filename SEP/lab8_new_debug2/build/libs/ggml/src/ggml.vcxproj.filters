@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-alloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-backend.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-quants.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-aarch64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\include\ggml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\include\ggml-alloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\include\ggml-backend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-quants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-aarch64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DBDE6073-E13D-3212-A7AA-51FE2D0C47CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{826834FF-231C-3FBE-98DC-05188EEA4EE4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

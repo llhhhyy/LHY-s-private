@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1B24178B-FCD7-3CB7-B8AC-11BD8ACDAA2E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ggml</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ggml.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ggml</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ggml.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ggml</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ggml.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ggml</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ggml.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ggml</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GGML_SHARED;GGML_BUILD;GGML_SCHED_MAX_COPIES=4;_XOPEN_SOURCE=600;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";ggml_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GGML_SHARED;GGML_BUILD;GGML_SCHED_MAX_COPIES=4;_XOPEN_SOURCE=600;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";ggml_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Cmake\bin\cmake.exe -E __create_def D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/Debug/exports.def D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/Debug/ggml.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/Debug/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/Debug/ggml.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GGML_SHARED;GGML_BUILD;GGML_SCHED_MAX_COPIES=4;_XOPEN_SOURCE=600;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";ggml_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GGML_SHARED;GGML_BUILD;GGML_SCHED_MAX_COPIES=4;_XOPEN_SOURCE=600;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";ggml_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Cmake\bin\cmake.exe -E __create_def D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/Release/exports.def D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/Release/ggml.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/Release/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/Release/ggml.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GGML_SHARED;GGML_BUILD;GGML_SCHED_MAX_COPIES=4;_XOPEN_SOURCE=600;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";ggml_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GGML_SHARED;GGML_BUILD;GGML_SCHED_MAX_COPIES=4;_XOPEN_SOURCE=600;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";ggml_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Cmake\bin\cmake.exe -E __create_def D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/MinSizeRel/exports.def D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/MinSizeRel/ggml.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/MinSizeRel/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/MinSizeRel/ggml.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GGML_SHARED;GGML_BUILD;GGML_SCHED_MAX_COPIES=4;_XOPEN_SOURCE=600;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";ggml_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GGML_SHARED;GGML_BUILD;GGML_SCHED_MAX_COPIES=4;_XOPEN_SOURCE=600;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";ggml_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\..\include;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\Cmake\bin\cmake.exe -E __create_def D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/RelWithDebInfo/exports.def D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/RelWithDebInfo/ggml.lib</ImportLibrary>
+      <ModuleDefinitionFile>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/RelWithDebInfo/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/RelWithDebInfo/ggml.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Cmake\bin\cmake.exe -SD:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2 -BD:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build --check-stamp-file D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Cmake\share\cmake-3.29\Modules\CheckCSourceRuns.cmake;D:\Cmake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;D:\Cmake\share\cmake-3.29\Modules\Internal\CheckSourceRuns.cmake;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\cmake\FindSIMD.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Cmake\bin\cmake.exe -SD:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2 -BD:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build --check-stamp-file D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Cmake\share\cmake-3.29\Modules\CheckCSourceRuns.cmake;D:\Cmake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;D:\Cmake\share\cmake-3.29\Modules\Internal\CheckSourceRuns.cmake;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\cmake\FindSIMD.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Cmake\bin\cmake.exe -SD:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2 -BD:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build --check-stamp-file D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Cmake\share\cmake-3.29\Modules\CheckCSourceRuns.cmake;D:\Cmake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;D:\Cmake\share\cmake-3.29\Modules\Internal\CheckSourceRuns.cmake;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\cmake\FindSIMD.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Cmake\bin\cmake.exe -SD:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2 -BD:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build --check-stamp-file D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Cmake\share\cmake-3.29\Modules\CheckCSourceRuns.cmake;D:\Cmake\share\cmake-3.29\Modules\CheckCXXCompilerFlag.cmake;D:\Cmake\share\cmake-3.29\Modules\Internal\CheckSourceRuns.cmake;D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\cmake\FindSIMD.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\libs\ggml\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\include\ggml.h" />
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\include\ggml-alloc.h" />
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\include\ggml-backend.h" />
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml.c" />
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-alloc.c" />
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-backend.c" />
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-quants.c" />
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-quants.h" />
+    <ClCompile Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-aarch64.c" />
+    <ClInclude Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\libs\ggml\src\ggml-aarch64.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Haoyu_Liu\homeworks\SEP\lab8_new_debug2\build\ZERO_CHECK.vcxproj">
+      <Project>{F47F3AB7-BF1C-39C6-9EB6-84681164B82D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

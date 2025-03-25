@@ -1,0 +1,5 @@
+D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/MinSizeRel/ggml.obj
+D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/MinSizeRel/ggml-alloc.obj
+D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/MinSizeRel/ggml-backend.obj
+D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/MinSizeRel/ggml-quants.obj
+D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/build/libs/ggml/src/ggml.dir/MinSizeRel/ggml-aarch64.obj
