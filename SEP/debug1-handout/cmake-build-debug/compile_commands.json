@@ -1,0 +1,38 @@
+[
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/debug1-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++11 -fdiagnostics-color=always -o P1\\CMakeFiles\\p1.dir\\p1.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P1\\p1.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P1\\p1.cpp",
+  "output": "P1\\CMakeFiles\\p1.dir\\p1.cpp.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/debug1-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++11 -fdiagnostics-color=always -o P2\\CMakeFiles\\p2.dir\\p2.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P2\\p2.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P2\\p2.cpp",
+  "output": "P2\\CMakeFiles\\p2.dir\\p2.cpp.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/debug1-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++11 -fdiagnostics-color=always -o P3\\CMakeFiles\\p3.dir\\p3.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P3\\p3.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P3\\p3.cpp",
+  "output": "P3\\CMakeFiles\\p3.dir\\p3.cpp.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/debug1-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++11 -fdiagnostics-color=always -o P4\\CMakeFiles\\p4.dir\\p4.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P4\\p4.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P4\\p4.cpp",
+  "output": "P4\\CMakeFiles\\p4.dir\\p4.cpp.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/debug1-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++11 -fdiagnostics-color=always -o P5\\CMakeFiles\\p5.dir\\main.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P5\\main.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P5\\main.cpp",
+  "output": "P5\\CMakeFiles\\p5.dir\\main.cpp.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/debug1-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++11 -fdiagnostics-color=always -o P5\\CMakeFiles\\p5.dir\\p5.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P5\\p5.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\debug1-handout\\P5\\p5.cpp",
+  "output": "P5\\CMakeFiles\\p5.dir\\p5.cpp.obj"
+}
+]

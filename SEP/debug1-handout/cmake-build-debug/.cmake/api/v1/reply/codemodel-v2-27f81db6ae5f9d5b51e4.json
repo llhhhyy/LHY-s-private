@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "P1",
+					"jsonFile" : "directory-P1-Debug-56c3260a36f958e14fde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "P1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "P2",
+					"jsonFile" : "directory-P2-Debug-adb3f9c9294a2c533e49.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "P2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "P3",
+					"jsonFile" : "directory-P3-Debug-92060c272c7b202712cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "P3",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "P4",
+					"jsonFile" : "directory-P4-Debug-6a5cfe8322299f5bca9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "P4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "P5",
+					"jsonFile" : "directory-P5-Debug-9608fe58f4bbafd9ec4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "P5",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab7_debug1"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "p1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "p2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "p3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "p4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "p5",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "p1::@5896a431b470e524a515",
+					"jsonFile" : "target-p1-Debug-b0b4dafe2fd9b8aa3082.json",
+					"name" : "p1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "p2::@ef96f6bad37f33889ebb",
+					"jsonFile" : "target-p2-Debug-0cdf2abcf80f172e5d23.json",
+					"name" : "p2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "p3::@934463501d1ae26a9a5a",
+					"jsonFile" : "target-p3-Debug-e3d48e3d970556bee21a.json",
+					"name" : "p3",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "p4::@4f2a4e2d233502414f28",
+					"jsonFile" : "target-p4-Debug-1ba4e35a873c239e583d.json",
+					"name" : "p4",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "p5::@64d67a9722e61f90f8d2",
+					"jsonFile" : "target-p5-Debug-58c68d077667925d6f04.json",
+					"name" : "p5",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Haoyu_Liu/homeworks/SEP/debug1-handout/cmake-build-debug",
+		"source" : "D:/Haoyu_Liu/homeworks/SEP/debug1-handout"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

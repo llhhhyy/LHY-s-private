@@ -1,0 +1,21 @@
+# ninja log v5
+1	51	7354001381581014	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	39405fccd38cdb14
+1	51	7354001381581014	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	39405fccd38cdb14
+51	4825	7354001429324244	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	195225665927fdb1
+51	4825	7354001429324244	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	195225665927fdb1
+4825	6997	0	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	c03b1de4e59a4cd9
+4825	6997	0	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	c03b1de4e59a4cd9
+6998	7046	7354001451531198	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	c815047975909363
+6998	7046	7354001451531198	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	c815047975909363
+7046	7095	7354001452008917	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	81aa3139e5434290
+7046	7095	7354001452008917	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	81aa3139e5434290
+7095	7174	7354001452809752	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	b4645187119fc197
+7095	7174	7354001452809752	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	b4645187119fc197
+7174	7234	7354001453420415	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	e1115fb9ba1225ff
+7174	7234	7354001453420415	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	e1115fb9ba1225ff
+7235	7299	7354001454067126	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	7c04e12c164f07a8
+7235	7299	7354001454067126	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	7c04e12c164f07a8
+7299	7362	7354001454693996	CMakeFiles/googletest-populate-complete	808004e453aef379
+7299	7362	7354001454693996	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	808004e453aef379
+7299	7362	7354001454693996	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	808004e453aef379
+7299	7362	7354001454693996	C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3(2)/cmake-build-debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	808004e453aef379

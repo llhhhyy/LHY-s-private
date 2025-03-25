@@ -1,0 +1,12 @@
+10 REM This is Load1
+20 LET n1 = 2 * ( 6 - 2 ) / 2 ** 2 + 5 MOD 2
+30 LET n2 = 3 - 5 * 2 + 12 MOD 3 ** 2
+32 PRINT n1
+37 PRINT n2
+40 IF n1 > 2 THEN 70
+50 PRINT n1
+60 PRINT n2
+70 LET n3 = n1 + n2
+80 PRINT n3
+90 END
+RUN

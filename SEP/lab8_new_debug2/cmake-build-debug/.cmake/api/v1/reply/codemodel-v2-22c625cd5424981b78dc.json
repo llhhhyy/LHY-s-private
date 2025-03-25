@@ -1,0 +1,290 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "libs",
+					"childIndexes" : 
+					[
+						2,
+						6,
+						7,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs-Debug-dd7a5ca29a7a50124f40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "libs"
+				},
+				{
+					"build" : "libs/cli11",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-libs.cli11-Debug-387adfaed3b4faaec26e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libs/cli11"
+				},
+				{
+					"build" : "libs/cli11/fuzz",
+					"jsonFile" : "directory-libs.cli11.fuzz-Debug-68367ba70f7578a0da77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "libs/cli11/fuzz"
+				},
+				{
+					"build" : "libs/cli11/src",
+					"jsonFile" : "directory-libs.cli11.src-Debug-693fed3e2478f430627a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "libs/cli11/src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libs/cli11/single-include",
+					"jsonFile" : "directory-libs.cli11.single-include-Debug-91e0a652cfd9a8297a51.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "libs/cli11/single-include"
+				},
+				{
+					"build" : "libs/fmt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.fmt-Debug-7b47025d8bdb7d21da1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "libs/fmt",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libs/ggml",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.ggml-Debug-7350584da7fc44b2a996.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "libs/ggml"
+				},
+				{
+					"build" : "libs/ggml/src",
+					"jsonFile" : "directory-libs.ggml.src-Debug-a78371d376fec6989744.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "libs/ggml/src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "libs/llama_tokenizer",
+					"jsonFile" : "directory-libs.llama_tokenizer-Debug-790e77daae81fd35aafc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "libs/llama_tokenizer",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						9,
+						10
+					],
+					"name" : "SmartServing",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "CLI11",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "ggml",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "CLI11::@9d12eb07ce577e60764d",
+					"jsonFile" : "target-CLI11-Debug-b78cfe112b5f652cf6d1.json",
+					"name" : "CLI11",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fmt::@089fe034fbf5c7f86783",
+					"jsonFile" : "target-fmt-Debug-4b179d0173c996b4422d.json",
+					"name" : "fmt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ggml::@4990bb402fc595396cab",
+					"jsonFile" : "target-ggml-Debug-cbe913d87f7ded13ffd2.json",
+					"name" : "ggml",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "llama_tokenizer::@6b4104eb983cd89cc518",
+					"jsonFile" : "target-llama_tokenizer-Debug-c025eb83f641a41fcd0a.json",
+					"name" : "llama_tokenizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "run::@145eef247bfb46b6828c",
+					"jsonFile" : "target-run-Debug-ee67bbb2a7e9f94f6853.json",
+					"name" : "run",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+		"source" : "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

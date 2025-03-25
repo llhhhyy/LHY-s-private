@@ -1,0 +1,337 @@
+/*
+ * 文件: lexicon.h
+ * ---------------
+ * 该文件导出 <code>Lexicon</code> 类，这是一个用于存储单词列表的紧凑结构。
+ *
+ * @作者 Marty Stepp
+ * @版本 2014/11/13
+ * - 添加了比较运算符 <, >= 等
+ * - 添加了 hashCode 函数
+ * @版本 2014/10/10
+ * - 添加了 equals 方法，比较运算符 ==, !=
+ * - 修复了 foreach 宏的包含以避免错误
+ */
+
+/*
+ * 类: Lexicon
+ * --------------
+ * 该类用于表示一个 <b><i>词汇表，</i></b> 或单词列表。
+ * 词汇表与字典的主要区别在于，词汇表不提供存储定义的机制；
+ * 词汇表仅包含单词，没有相关信息。
+ * 因此，它类似于字符串集合，但具有更高效的内部表示。
+ * <code>Lexicon</code> 类支持高效的单词和前缀查找操作。
+ *
+ * <p>作为 <code>Lexicon</code> 类的使用示例，以下程序列出了
+ * 存储在 <code>EnglishWords.dat</code> 中的所有两个字母单词：
+ *
+ *<pre>
+ *    int main() {
+ *       Lexicon english("EnglishWords.dat");
+ *       for (string word : english) {
+ *          if (word.length() == 2) {
+ *             cout << word << endl;
+ *          }
+ *       }
+ *       return 0;
+ *    }
+ *</pre>
+ */
+
+/*
+ * 构造函数: Lexicon
+ * 用法: Lexicon lex;
+ *        Lexicon lex(filename);
+ * -----------------------------
+ * 初始化一个新的词汇表。默认构造函数创建一个空的词汇表。
+ * 第二种形式从指定的数据文件读取词汇表的内容。
+ * 数据文件必须为两种格式之一：
+ * (1) 空间高效的预编译二进制格式或 (2) 每行包含一个单词的文本文件。
+ * 斯坦福库分发版包含一个名为 <code>English.dat</code> 的二进制词汇表文件，
+ * 其中包含英语单词的列表。初始化该词汇表的标准代码模式如下：
+ *
+ *<pre>
+ *    Lexicon english("English.dat");
+ *</pre>
+ */
+
+/*
+ * 析构函数: ~Lexicon
+ * --------------------
+ * 析构函数释放与词汇表相关的任何存储。
+ */
+
+/*
+ * 方法: add
+ * 用法: lex.add(word);
+ * ---------------------
+ * 如果词汇表中尚不存在指定的单词，则将其添加到词汇表中。
+ * 在将单词添加到词汇表之前会将其转换为小写。
+ * 如果单词包含任何非字母字符（包括空格），
+ * 则不会添加。空字符串不能添加到词汇表中。
+ * 如果单词成功添加到词汇表中，则返回 true。
+ */
+
+/*
+ * 方法: addWordsFromFile
+ * 用法: lex.addWordsFromFile(filename);
+ * --------------------------------------
+ * 读取文件并将其中所有单词添加到词汇表中。
+ * 文件中的每个单词在添加之前会转换为小写。
+ */
+
+/*
+ * 方法: clear
+ * 用法: lex.clear();
+ * -------------------
+ * 从词汇表中移除所有单词。
+ */
+
+/*
+ * 方法: contains
+ * 用法: if (lex.contains(word)) ...
+ * ----------------------------------
+ * 如果 <code>word</code> 存在于词汇表中，则返回 <code>true</code>。
+ * 在 <code>Lexicon</code> 类中，字母的大小写被忽略，
+ * 因此 "Zoo" 与 "ZOO" 或 "zoo" 是相同的。
+ * 空字符串不能包含在词汇表中，也不能包含任何包含非字母字符的单词，
+ * 例如标点符号或空格。
+ */
+
+/*
+ * 方法: containsPrefix
+ * 用法: if (lex.containsPrefix(prefix)) ...
+ * ------------------------------------------
+ * 如果词汇表中有任何单词以 <code>prefix</code> 开头，则返回 true。
+ * 和 <code>containsWord</code> 一样，此方法忽略字母的大小写，
+ * 因此 "MO" 是 "monkey" 或 "Monday" 的前缀。
+ * 空字符串是每个字符串的前缀，因此当传递空字符串时，此方法返回 true。
+ */
+ bool containsPrefix(const std::string &prefix) const;
+
+ /*
+  * 方法: equals
+  * 用法: if (lex1.equals(lex2)) ...
+  * ---------------------------------
+  * 比较两个词典是否相等。
+  */
+ bool equals(const Lexicon &lex2) const;
+
+ /*
+  * 方法: isEmpty
+  * 用法: if (lex.isEmpty()) ...
+  * -----------------------------
+  * 如果词典中没有单词，则返回 <code>true</code>。
+  */
+ bool isEmpty() const;
+
+ /*
+  * 方法: mapAll
+  * 用法: lexicon.mapAll(fn);
+  * --------------------------
+  * 在词典中的每个单词上调用指定的函数。
+  */
+ void mapAll(void (*fn)(std::string)) const;
+ void mapAll(void (*fn)(const std::string &)) const;
+
+ template <typename FunctorType> void mapAll(FunctorType fn) const;
+
+ /*
+  * 方法: remove
+  * 用法: lex.remove(word);
+  * ---------------------
+  * 从词典中移除指定的单词（如果存在）。
+  * 如果单词之前包含在词典中，则返回 true；
+  * 换句话说，如果一个单词被移除。
+  * 空字符串不能包含在词典中，因此传递空字符串给此方法将返回 false。
+  */
+ bool remove(const std::string &word);
+
+ /*
+  * 方法: removePrefix
+  * 用法: lex.removePrefix(prefix);
+  * ---------------------
+  * 从词典中移除所有以给定前缀开头的单词。
+  * 如果前缀之前包含在词典中，则返回 true；
+  * 换句话说，如果任何单词被移除。
+  * 如果传递空字符串，由于所有单词都以空字符串开头，所有单词将被移除，
+  * 并且如果词典在调用之前非空，此方法将返回 true。
+  */
+ bool removePrefix(const std::string &prefix);
+
+ /*
+  * 方法: size
+  * 用法: int n = lex.size();
+  * --------------------------
+  * 返回词典中包含的单词数量。
+  */
+ int size() const;
+
+ /*
+  * 返回一个包含相同元素的 STL set 对象。
+  */
+ std::set<std::string> toStlSet() const;
+
+ /*
+  * 附加的 Lexicon 操作
+  * -----------------------------
+  * 除了此接口中列出的方法外，Lexicon 类还支持以下操作：
+  *
+  *   - 深拷贝用于拷贝构造函数和赋值运算符
+  *   - 使用基于范围的 for 语句和 STL 迭代器进行迭代
+  *
+  * 所有迭代都保证按字母顺序进行。词典中的所有单词都以小写形式存储。
+  */
+
+ /* 私有部分 */
+
+ /**********************************************************************/
+ /* 注意：文件中此点以下的所有内容在逻辑上是实现的一部分，     */
+ /* 对客户端不应感兴趣。                                               */
+ /**********************************************************************/
+ private:
+   struct TrieNode {
+   public:
+     TrieNode() {
+       m_isWord = false;
+       for (int i = 0; i < 26; i++) {
+         m_children[i] = nullptr;
+       }
+     }
+
+     // 前提：字母介于 'a' 和 'z' 之间（小写）
+     inline TrieNode *&child(char letter) { return m_children[letter - 'a']; }
+
+     inline int childCount() {
+       int count = 0;
+       for (int i = 0; i < 26; i++) {
+         if (m_children[i] != nullptr) {
+           count++;
+         }
+       }
+       return count;
+     }
+
+     inline bool isLeaf() {
+       for (int i = 0; i < 26; i++) {
+         if (m_children[i] != nullptr) {
+           return false;
+         }
+       }
+       return true;
+     }
+
+     inline bool isWord() { return m_isWord; }
+
+     inline void setWord(bool value) { m_isWord = value; }
+
+   private:
+     /* 实例变量 */
+     bool m_isWord;
+     TrieNode *m_children[26]; // 0=a, 1=b, 2=c, ..., 25=z
+   };
+
+   /*
+    * 私有辅助函数，包括
+    * 递归辅助函数以实现公共的 add/contains/remove 方法
+    */
+   bool addHelper(TrieNode *&node, const std::string &word,
+                  const std::string &originalWord);
+   bool containsHelper(TrieNode *node, const std::string &word,
+                       bool isPrefix) const;
+   void deepCopy(const Lexicon &src);
+   void deleteTree(TrieNode *node);
+   bool removeHelper(TrieNode *&node, const std::string &word,
+                     const std::string &originalWord, bool isPrefix);
+   void removeSubtreeHelper(TrieNode *&node, const std::string &originalWord);
+
+   /* 实例变量 */
+   TrieNode *m_root;
+   int m_size;
+   std::set<std::string>
+       m_allWords; // 所有单词的辅助结构，用于 foreach 循环；
+                   // 基本上是一个备用的方法，以便我可以遍历单词
+
+ public:
+   /*
+    * 深拷贝支持
+    * --------------------
+    * 此拷贝构造函数和赋值运算符被定义为进行深拷贝，
+    * 使得可以通过值传递/返回词典，并从另一个词典赋值。
+    * 词典的全部内容，包括所有单词，都会被复制。
+    * 由于开销较大，通常避免进行拷贝，因此词典通常通过引用传递。
+    * 当需要拷贝时，这些操作是支持的。
+    */
+   Lexicon(const Lexicon &src);
+   Lexicon &operator=(const Lexicon &src);
+
+   /* 迭代器 */
+   using const_iterator = std::set<std::string>::const_iterator;
+   const_iterator begin() const { return m_allWords.begin(); }
+   const_iterator end() const { return m_allWords.end(); }
+   const_iterator cbegin() const { return m_allWords.cbegin(); }
+   const_iterator cend() const { return m_allWords.cend(); }
+ };
+
+ template <typename FunctorType> void Lexicon::mapAll(FunctorType fn) const {
+   for (std::string word : m_allWords) {
+     fn(word);
+   }
+ }
+// 递归函数，用于搜索单词
+void dfs(const vector<vector<char>>& map, int x, int y, string& currentWord,
+         vector<vector<bool>>& visited, set<string>& foundWords) {
+    // 如果当前单词长度大于等于3，则认为是一个有效单词
+    if (currentWord.length() >= 3) {
+        foundWords.insert(currentWord);
+    }
+
+    // 遍历所有方向
+    for (const auto& d : dir) {
+        int nx = x + d.first;
+        int ny = y + d.second;
+
+        // 检查边界条件
+        if (nx >= 0 && nx < map.size() && ny >= 0 && ny < map[0].size() && !visited[nx][ny]) {
+            // 标记当前格子为已访问
+            visited[nx][ny] = true;
+            // 添加当前字符到当前单词
+            currentWord.push_back(map[nx][ny]);
+
+            // 递归搜索
+            dfs(map, nx, ny, currentWord, visited, foundWords);
+
+            // 回溯：移除当前字符，标记当前格子为未访问
+            currentWord.pop_back();
+            visited[nx][ny] = false;
+        }
+    }
+}
+
+// 主函数，用于寻找所有可能的单词
+set<string> findWords(const vector<vector<char>>& map) {
+    set<string> foundWords;
+    int n = map.size();
+    if (n == 0) return foundWords;
+
+    vector<vector<bool>> visited(n, vector<bool>(n, false));
+    string currentWord;
+
+    // 从每个格子开始搜索
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            // 初始化当前单词
+            currentWord = "";
+            currentWord.push_back(map[i][j]);
+            // 标记当前格子为已访问
+            visited[i][j] = true;
+
+            // 递归搜索
+            dfs(map, i, j, currentWord, visited, foundWords);
+
+            // 回溯：标记当前格子为未访问
+            visited[i][j] = false;
+        }
+    }
+
+    return foundWords;
+}

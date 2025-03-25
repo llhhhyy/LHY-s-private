@@ -1,0 +1,5 @@
+if(EXISTS "D:/new/lab3-handout/cmake-build-debug/lab3_test[1]_tests.cmake")
+  include("D:/new/lab3-handout/cmake-build-debug/lab3_test[1]_tests.cmake")
+else()
+  add_test(lab3_test_NOT_BUILT lab3_test_NOT_BUILT)
+endif()

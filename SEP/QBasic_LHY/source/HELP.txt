@@ -1,0 +1,22 @@
+QBasic
+    1. 代码格式：行号 语句 表达式
+        支持的语句有：
+              REM：注释
+              LET：赋值语句。语法：LET var = exp
+              IF：条件语句。语法：IF exp1 > || < || = exp2 THEN n(行号)
+              PRINT：打印。语法：PRINT exp || var
+              INPUT：输入。语法：INPUT var
+              GOTO：跳转。语法：GPTO n
+              END：结束标识符
+        代码中的所有元素都应以空格分隔，否则无法正常运行
+    2. 命令
+        RUN：运行当前代码
+        LOAD：载入文档
+        CLEAR：清空代码
+        HELP：帮助
+        QUIT：退出QBasic
+        PRINT：直接打印所需表达式
+        LET：同代码中的LET，直接添加变量
+        INPUT：同代码中的INPUT，直接添加变量
+        ADD：ADD n 在行n处添加断点
+        DELETE：DELETE n 删除n行处断点

@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\lab3.dir\\hanoi.cpp.obj -c C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\hanoi.cpp",
+  "file": "C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\hanoi.cpp",
+  "output": "CMakeFiles\\lab3.dir\\hanoi.cpp.obj"
+},
+{
+  "directory": "C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\lab3.dir\\board.cpp.obj -c C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\board.cpp",
+  "file": "C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\board.cpp",
+  "output": "CMakeFiles\\lab3.dir\\board.cpp.obj"
+},
+{
+  "directory": "C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\lab3.dir\\rod.cpp.obj -c C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\rod.cpp",
+  "file": "C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\rod.cpp",
+  "output": "CMakeFiles\\lab3.dir\\rod.cpp.obj"
+},
+{
+  "directory": "C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\lab3_test.dir\\lab3_test.cpp.obj -c C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\lab3_test.cpp",
+  "file": "C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\lab3_test.cpp",
+  "output": "CMakeFiles\\lab3_test.dir\\lab3_test.cpp.obj"
+},
+{
+  "directory": "C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googlemock/include -IC:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googlemock -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\cmake-build-debug\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\cmake-build-debug\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "output": "_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googlemock/include -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googlemock -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\cmake-build-debug\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\cmake-build-debug\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "output": "_deps\\googletest-build\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest/include -IC:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\cmake-build-debug\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\cmake-build-debug\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "output": "_deps\\googletest-build\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest/include -isystem C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab3-handout/cmake-build-debug/_deps/googletest-src/googletest -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o _deps\\googletest-build\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\cmake-build-debug\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "C:\\Users\\96317\\Desktop\\Haoyu_Liu\\homeworks\\SEP\\lab3-handout\\cmake-build-debug\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "output": "_deps\\googletest-build\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj"
+}
+]

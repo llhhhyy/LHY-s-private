@@ -1,0 +1,5 @@
+# ninja log v5
+3	1001	7640768856418521	CMakeFiles/hw2_code.dir/main_ref.cc.obj	1106630db0239f64
+0	836	7640757197254138	CMakeFiles/hw2_code.dir/main.cc.obj	d6a3c01a1e4ffeaa
+1011	1142	7640768857784796	hw2_code.exe	7959019640af3f2
+2	147	7642388068274076	build.ninja	a6f5a22cc9f614c4

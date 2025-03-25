@@ -1,0 +1,14 @@
+# ninja log v5
+8	308	7306583737782031	CMakeFiles/lab1lib.dir/Class.cc.obj	13fdfd4e923f6334
+3	287	7308113437521542	CMakeFiles/lab1lib.dir/Student.cc.obj	99c4aa3e0fac8b34
+3	418	7308108907374056	CMakeFiles/lab1.dir/main.cc.obj	1508a84a5eadf12
+288	354	7308113438199276	liblab1lib.a	97a26feaaedb1dfb
+354	492	7308113439545430	lab1.exe	f34bd1cfb13c9fa
+3	326	7308114280367508	CMakeFiles/lab1lib.dir/Student.cc.obj	99c4aa3e0fac8b34
+327	403	7308114281130306	liblab1lib.a	97a26feaaedb1dfb
+403	550	7308114282581096	lab1.exe	f34bd1cfb13c9fa
+3	302	7308115397780274	CMakeFiles/lab1lib.dir/Student.cc.obj	99c4aa3e0fac8b34
+303	372	7308115398492995	liblab1lib.a	97a26feaaedb1dfb
+372	517	7308115399885450	lab1.exe	f34bd1cfb13c9fa
+2	408	7308119907390278	CMakeFiles/lab1.dir/main.cc.obj	1508a84a5eadf12
+408	549	7308119908772728	lab1.exe	f34bd1cfb13c9fa

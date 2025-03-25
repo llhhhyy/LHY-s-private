@@ -1,0 +1,74 @@
+[
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/fmt/include -g -std=gnu++17 -fdiagnostics-color=always -o libs\\fmt\\CMakeFiles\\fmt.dir\\src\\format.cc.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\fmt\\src\\format.cc",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\fmt\\src\\format.cc",
+  "output": "libs\\fmt\\CMakeFiles\\fmt.dir\\src\\format.cc.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/fmt/include -g -std=gnu++17 -fdiagnostics-color=always -o libs\\fmt\\CMakeFiles\\fmt.dir\\src\\os.cc.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\fmt\\src\\os.cc",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\fmt\\src\\os.cc",
+  "output": "libs\\fmt\\CMakeFiles\\fmt.dir\\src\\os.cc.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\gcc.exe -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/. -g -std=gnu11 -fdiagnostics-color=always -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -o libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml.c.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml.c",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml.c",
+  "output": "libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml.c.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\gcc.exe -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/. -g -std=gnu11 -fdiagnostics-color=always -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -o libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-alloc.c.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml-alloc.c",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml-alloc.c",
+  "output": "libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-alloc.c.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\gcc.exe -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/. -g -std=gnu11 -fdiagnostics-color=always -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -o libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-backend.c.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml-backend.c",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml-backend.c",
+  "output": "libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-backend.c.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\gcc.exe -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/. -g -std=gnu11 -fdiagnostics-color=always -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -o libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-quants.c.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml-quants.c",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml-quants.c",
+  "output": "libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-quants.c.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\gcc.exe -DGGML_SCHED_MAX_COPIES=4 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x602 -D_XOPEN_SOURCE=600 -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/. -g -std=gnu11 -fdiagnostics-color=always -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -o libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-aarch64.c.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml-aarch64.c",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\ggml\\src\\ggml-aarch64.c",
+  "output": "libs\\ggml\\src\\CMakeFiles\\ggml.dir\\ggml-aarch64.c.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/llama_tokenizer/. -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -g -std=gnu++17 -fdiagnostics-color=always -o libs\\llama_tokenizer\\CMakeFiles\\llama_tokenizer.dir\\llama-vocab.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\llama_tokenizer\\llama-vocab.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\llama_tokenizer\\llama-vocab.cpp",
+  "output": "libs\\llama_tokenizer\\CMakeFiles\\llama_tokenizer.dir\\llama-vocab.cpp.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/llama_tokenizer/. -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -g -std=gnu++17 -fdiagnostics-color=always -o libs\\llama_tokenizer\\CMakeFiles\\llama_tokenizer.dir\\unicode-data.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\llama_tokenizer\\unicode-data.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\llama_tokenizer\\unicode-data.cpp",
+  "output": "libs\\llama_tokenizer\\CMakeFiles\\llama_tokenizer.dir\\unicode-data.cpp.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/llama_tokenizer/. -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -g -std=gnu++17 -fdiagnostics-color=always -o libs\\llama_tokenizer\\CMakeFiles\\llama_tokenizer.dir\\unicode.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\llama_tokenizer\\unicode.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\libs\\llama_tokenizer\\unicode.cpp",
+  "output": "libs\\llama_tokenizer\\CMakeFiles\\llama_tokenizer.dir\\unicode.cpp.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/src/. -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/llama_tokenizer/. -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/fmt/include -isystem D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/cli11/include -g -std=gnu++17 -fdiagnostics-color=always -o src\\CMakeFiles\\run.dir\\main.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\src\\main.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\src\\main.cpp",
+  "output": "src\\CMakeFiles\\run.dir\\main.cpp.obj"
+},
+{
+  "directory": "D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/cmake-build-debug",
+  "command": "C:\\Users\\96317\\CLION2~1.4\\bin\\mingw\\bin\\G__~1.EXE -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/src/. -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/llama_tokenizer/. -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/ggml/src/../include -ID:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/fmt/include -isystem D:/Haoyu_Liu/homeworks/SEP/lab8_new_debug2/libs/cli11/include -g -std=gnu++17 -fdiagnostics-color=always -o src\\CMakeFiles\\run.dir\\core.cpp.obj -c D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\src\\core.cpp",
+  "file": "D:\\Haoyu_Liu\\homeworks\\SEP\\lab8_new_debug2\\src\\core.cpp",
+  "output": "src\\CMakeFiles\\run.dir\\core.cpp.obj"
+}
+]

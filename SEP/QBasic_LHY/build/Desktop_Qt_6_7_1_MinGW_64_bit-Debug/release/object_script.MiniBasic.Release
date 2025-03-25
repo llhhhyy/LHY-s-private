@@ -1,0 +1,10 @@
+release/handlecode.o
+release/handlecommand.o
+release/helpdialog.o
+release/main.o
+release/mainwindow.o
+release/syntaxtree.o
+release/qrc_resource.o
+release/moc_handlecode.o
+release/moc_helpdialog.o
+release/moc_mainwindow.o

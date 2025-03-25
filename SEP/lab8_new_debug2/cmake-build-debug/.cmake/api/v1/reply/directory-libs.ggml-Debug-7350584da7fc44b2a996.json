@@ -1,0 +1,66 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libs/ggml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 233,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/ggml/src/libggml.a"
+			],
+			"targetId" : "ggml::@4990bb402fc595396cab",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"libs/ggml/include/ggml.h",
+				"libs/ggml/include/ggml-alloc.h",
+				"libs/ggml/include/ggml-backend.h",
+				"libs/ggml/include/ggml-blas.h",
+				"libs/ggml/include/ggml-cann.h",
+				"libs/ggml/include/ggml-cuda.h",
+				"libs/ggml/include/ggml.h",
+				"libs/ggml/include/ggml-kompute.h",
+				"libs/ggml/include/ggml-metal.h",
+				"libs/ggml/include/ggml-rpc.h",
+				"libs/ggml/include/ggml-sycl.h",
+				"libs/ggml/include/ggml-vulkan.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/ggml",
+		"source" : "libs/ggml"
+	}
+}

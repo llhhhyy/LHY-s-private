@@ -1,0 +1,4 @@
+"D:\备份\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/备份/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S "D:\Haoyu_Liu\homeworks\High-level data structures\hw2_code" -B "D:\Haoyu_Liu\homeworks\High-level data structures\hw2_code\cmake-build-debug"
+-- Configuring done (2.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/Haoyu_Liu/homeworks/High-level data structures/hw2_code/cmake-build-debug

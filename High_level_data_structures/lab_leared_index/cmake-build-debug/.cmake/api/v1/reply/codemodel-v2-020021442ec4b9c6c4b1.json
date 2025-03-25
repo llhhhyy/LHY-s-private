@@ -1,0 +1,137 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "learned-index",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "basic_test1::@36f028580bb02cc8272a",
+					"jsonFile" : "target-basic_test1-Debug-71a343ee40f205bc85e9.json",
+					"name" : "basic_test1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "basic_test2::@36f028580bb02cc8272a",
+					"jsonFile" : "target-basic_test2-Debug-d0b37ba4791bc8d5308a.json",
+					"name" : "basic_test2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "compare_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-compare_test-Debug-f3bf19f4bc661baa4c36.json",
+					"name" : "compare_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "large_test1::@36f028580bb02cc8272a",
+					"jsonFile" : "target-large_test1-Debug-42788d75601c4eea65a9.json",
+					"name" : "large_test1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "large_test2::@36f028580bb02cc8272a",
+					"jsonFile" : "target-large_test2-Debug-96a7e1240e10f13a92ca.json",
+					"name" : "large_test2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "learned_index::@145eef247bfb46b6828c",
+					"jsonFile" : "target-learned_index-Debug-a52f747858883a1de9ea.json",
+					"name" : "learned_index",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Haoyu_Liu/homeworks/High-level data structures/lab-learned-index-handout/cmake-build-debug",
+		"source" : "D:/Haoyu_Liu/homeworks/High-level data structures/lab-learned-index-handout"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

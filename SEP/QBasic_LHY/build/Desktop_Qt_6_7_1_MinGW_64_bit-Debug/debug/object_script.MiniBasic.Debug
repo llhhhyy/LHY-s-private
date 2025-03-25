@@ -1,0 +1,10 @@
+debug/handlecode.o
+debug/handlecommand.o
+debug/helpdialog.o
+debug/main.o
+debug/mainwindow.o
+debug/syntaxtree.o
+debug/qrc_resource.o
+debug/moc_handlecode.o
+debug/moc_helpdialog.o
+debug/moc_mainwindow.o

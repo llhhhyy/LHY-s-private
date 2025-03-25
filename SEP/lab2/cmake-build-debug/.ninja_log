@@ -1,0 +1,6 @@
+# ninja log v5
+13	188	7323929329314899	CMakeFiles/lab2.dir/ed.cc.obj	367fa6efe1632f05
+8	274	7323929330182075	CMakeFiles/lab2lib.dir/Buffer.cc.obj	b6c8687d7fe6b0be
+3	264	7323929330072386	CMakeFiles/lab2lib.dir/Editor.cc.obj	edf0f104ab92f84d
+275	348	7323929330914792	liblab2lib.a	5ee10c9f3f5ff10a
+348	471	7323929332109408	lab2.exe	e0309b4cd428479d

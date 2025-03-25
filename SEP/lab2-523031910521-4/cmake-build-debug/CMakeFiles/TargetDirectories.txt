@@ -1,0 +1,4 @@
+C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab2-523031910521-4/cmake-build-debug/CMakeFiles/lab2lib.dir
+C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab2-523031910521-4/cmake-build-debug/CMakeFiles/lab2.dir
+C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab2-523031910521-4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/96317/Desktop/Haoyu_Liu/homeworks/SEP/lab2-523031910521-4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

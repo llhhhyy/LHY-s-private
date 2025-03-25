@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>HELP.txt</file>
+        <file>load1.txt</file>
+    </qresource>
+</RCC>
